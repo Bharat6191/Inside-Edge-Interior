@@ -35,13 +35,16 @@ const ParticleBackground = () => {
     // Dynamic Design Element class
     class DesignElement {
       constructor() {
+        const isMobile = window.innerWidth < 768;
+        const speedMultiplier = isMobile ? 0.5 : 1;
+        
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
-        this.vx = (Math.random() - 0.5) * 0.3;
-        this.vy = (Math.random() - 0.5) * 0.3;
+        this.vx = (Math.random() - 0.5) * 0.3 * speedMultiplier;
+        this.vy = (Math.random() - 0.5) * 0.3 * speedMultiplier;
         this.size = Math.random() * 60 + 40; // Larger size for visibility
         this.rotation = Math.random() * Math.PI * 2;
-        this.rotationSpeed = (Math.random() - 0.5) * 0.02;
+        this.rotationSpeed = (Math.random() - 0.5) * 0.02 * speedMultiplier;
         this.baseRotationSpeed = this.rotationSpeed;
         this.type = elementTypes[Math.floor(Math.random() * elementTypes.length)];
         this.palette = colorPalettes[Math.floor(Math.random() * colorPalettes.length)];

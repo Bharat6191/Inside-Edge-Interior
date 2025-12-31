@@ -27,7 +27,7 @@ const Portfolio = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="text-6xl md:text-[9rem] font-serif text-neutral-900 leading-[0.9] tracking-tighter text-center"
+          className="text-5xl md:text-[9rem] font-serif text-neutral-900 leading-[0.9] tracking-tighter text-center"
         >
           Curated<br />Spaces.
         </motion.h1>

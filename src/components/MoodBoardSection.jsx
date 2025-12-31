@@ -6,7 +6,7 @@ const MoodBoardSection = ({ title, concept, description, palette, images, orient
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <section className="min-h-screen w-full py-24 px-4 md:px-12 lg:px-24 flex items-center bg-neutral-50 overflow-hidden relative">
+    <section className="py-16 md:py-24 px-4 md:px-12 lg:px-24 flex items-center bg-neutral-50 overflow-hidden relative min-h-[auto] md:min-h-screen">
       <div className={`w-full max-w-7xl mx-auto flex flex-col ${isLeft ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-12 lg:gap-24 items-center`}>
         
         {/* Text Side - Kept for SEO/Accessibility but minimized visual impact if needed */}
@@ -15,7 +15,7 @@ const MoodBoardSection = ({ title, concept, description, palette, images, orient
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="lg:w-1/3 flex flex-col gap-6 z-10"
+          className="lg:w-1/3 flex flex-col gap-6 z-10 w-full"
         >
           <div className="flex flex-col">
             <span className="text-xs uppercase tracking-[0.3em] text-neutral-400 mb-2 font-sans">{concept}</span>
@@ -41,7 +41,7 @@ const MoodBoardSection = ({ title, concept, description, palette, images, orient
         </motion.div>
 
         {/* Visual Side - Aesthetic Collage */}
-        <div className="lg:w-2/3 w-full relative h-[600px] md:h-[700px] flex items-center justify-center">
+        <div className="lg:w-2/3 w-full relative h-[450px] md:h-[700px] flex items-center justify-center mt-8 md:mt-0">
           {/* Decorative Background Blob */}
           <div className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] h-[90%] bg-neutral-100 rounded-full blur-3xl opacity-60 pointer-events-none`} />
 
@@ -52,7 +52,7 @@ const MoodBoardSection = ({ title, concept, description, palette, images, orient
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1, delay: 0.1 }}
-              className={`absolute top-12 ${isLeft ? 'right-4 md:right-12' : 'left-4 md:left-12'} w-[35%] aspect-[3/4] z-0 opacity-90`}
+              className={`absolute top-4 md:top-12 ${isLeft ? 'right-0 md:right-12' : 'left-0 md:left-12'} w-[40%] md:w-[35%] aspect-[3/4] z-0 opacity-90`}
             >
               <img 
                 src={images[1]} 
@@ -69,7 +69,7 @@ const MoodBoardSection = ({ title, concept, description, palette, images, orient
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="relative z-20 w-[55%] md:w-[50%] h-auto shadow-2xl rounded-sm overflow-hidden border-[6px] border-white"
+            className="relative z-20 w-[65%] md:w-[50%] h-auto shadow-2xl rounded-sm overflow-hidden border-[4px] md:border-[6px] border-white"
           >
             <img 
               src={images[0]} 
@@ -86,7 +86,7 @@ const MoodBoardSection = ({ title, concept, description, palette, images, orient
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className={`absolute bottom-20 ${isLeft ? 'left-4 md:left-20' : 'right-4 md:right-20'} w-[28%] aspect-square z-30`}
+              className={`absolute bottom-8 md:bottom-20 ${isLeft ? 'left-0 md:left-20' : 'right-0 md:right-20'} w-[30%] md:w-[28%] aspect-square z-30`}
             >
               <div className="w-full h-full rounded-full border-4 border-white shadow-xl overflow-hidden">
                 <img 
