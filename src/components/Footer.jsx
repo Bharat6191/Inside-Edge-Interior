@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-neutral-900 text-neutral-400 py-12 text-center">
       <div className="container mx-auto px-6">
         <div className="flex justify-center mb-6">
-          <img src="/inside-edge-logo.jpg" alt="Inside Edge" className="h-16 w-auto object-contain rounded-md bg-white p-1" />
+          <img src="/Inside-Edge-Interior/inside-edge-logo.jpg" alt="Inside Edge" className="h-16 w-auto object-contain rounded-md bg-white p-1" />
         </div>
         <p className="text-xs uppercase tracking-widest mb-8">Timeless Interior Design</p>
         

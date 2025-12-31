@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-neutral-50 text-neutral-900 font-sans selection:bg-stone-200 selection:text-neutral-900 overflow-x-hidden">
         
         {/* Site-wide Particle Background */}

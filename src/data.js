@@ -7,7 +7,7 @@ export const moodBoards = [
     description: 'A playful mix of colors, textures, and styles brought together with modern balance.',
     palette: ['#5C5C26', '#D6CFC9', '#A67B5B', '#C96530', '#632A15'],
     images: [
-      '/images/uploaded_image_0_1767079152746.jpg', // Main Poster
+      '/Inside-Edge-Interior/images/uploaded_image_0_1767079152746.jpg', // Main Poster
       'https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=600&auto=format&fit=crop', // Abstract Art/Texture
       'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600&auto=format&fit=crop', // Interior Detail
     ],
@@ -20,7 +20,7 @@ export const moodBoards = [
     description: 'Clean lines, neutral bases, inspired by traditional art, craft, and culture.',
     palette: ['#F9F8F6', '#EBEBE9', '#D8D4CE', '#8E8680', '#2B2B2B'],
     images: [
-      '/images/uploaded_image_1_1767079152746.png',
+      '/Inside-Edge-Interior/images/uploaded_image_1_1767079152746.png',
       'https://images.unsplash.com/photo-1594823677827-9177bed72e5d?auto=format&fit=crop&q=80&w=600', // Ceramic/Vase
       'https://images.unsplash.com/photo-1558346648-9757f2fa4474?auto=format&fit=crop&q=80&w=600', // Stone Texture
     ],
@@ -33,7 +33,7 @@ export const moodBoards = [
     description: 'Fuses nature and luxury—greenery, natural textures, and rich finishes for calm, elegant living.',
     palette: ['#4F5D3B', '#8C9A74', '#D0CDBC', '#9C8867', '#765C48'],
     images: [
-      '/images/uploaded_image_2_1767079152746.png',
+      '/Inside-Edge-Interior/images/uploaded_image_2_1767079152746.png',
       'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=600&auto=format&fit=crop', // Green Luxury
       'https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=600&auto=format&fit=crop', // Leaf/Texture
     ],
@@ -46,7 +46,7 @@ export const moodBoards = [
     description: 'Blends raw textures with modern elegance for edgy, urban style.',
     palette: ['#1A1A1A', '#3E3C3A', '#6B5B4E', '#BDBDBD', '#F2F2F2'],
     images: [
-      '/images/uploaded_image_3_1767079152746.png',
+      '/Inside-Edge-Interior/images/uploaded_image_3_1767079152746.png',
       'https://images.unsplash.com/photo-1515895309288-a3815ab7cf81?auto=format&fit=crop&q=80&w=600', // Concrete
       'https://images.unsplash.com/photo-1558346648-9757f2fa4474?auto=format&fit=crop&q=80&w=600', // Material Detail
     ],
@@ -59,7 +59,7 @@ export const moodBoards = [
     description: 'A mix of cobalt, turquoise, and terracotta inspired by coastal warmth.',
     palette: ['#1C2E4A', '#415A77', '#778DA9', '#E0E1DD', '#B5651D'],
     images: [
-      '/images/uploaded_image_4_1767079152746.png',
+      '/Inside-Edge-Interior/images/uploaded_image_4_1767079152746.png',
       'https://images.unsplash.com/photo-1560448204-61dc36dc98c8?q=80&w=600&auto=format&fit=crop', // Tiles
       'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=600&auto=format&fit=crop', // Sea/Texture
     ],
