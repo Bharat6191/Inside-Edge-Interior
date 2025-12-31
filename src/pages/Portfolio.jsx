@@ -110,7 +110,7 @@ const PortfolioSection = ({ section, index, reversed, onOpen }) => {
         {/* Layer 1: The Shadow/Depth (Filled) */}
         <motion.h2 
           style={{ x: xMovement, skewX }}
-          className="absolute top-0 text-[13vw] font-serif leading-none whitespace-nowrap text-neutral-100 tracking-widest origin-bottom-left select-none"
+          className="absolute top-0 text-[15vw] md:text-[10vw] font-serif leading-none whitespace-nowrap text-neutral-100 tracking-widest origin-bottom-left select-none"
         >
           {section.title}
         </motion.h2>
@@ -118,7 +118,7 @@ const PortfolioSection = ({ section, index, reversed, onOpen }) => {
         {/* Layer 2: The Outline (Stroke) */}
         <motion.h2 
           style={{ x: xMovementLayer2, skewX }}
-          className="absolute top-0 text-[13vw] font-serif leading-none whitespace-nowrap text-transparent tracking-widest origin-bottom-left select-none transition-transform duration-700 ease-out group-hover:translate-x-4 group-hover:-translate-y-2"
+          className="absolute top-0 text-[15vw] md:text-[10vw] font-serif leading-none whitespace-nowrap text-transparent tracking-widest origin-bottom-left select-none transition-transform duration-700 ease-out group-hover:translate-x-4 group-hover:-translate-y-2"
         >
           <span className="bg-clip-text bg-gradient-to-r from-neutral-300 to-neutral-400 opacity-30" style={{ WebkitTextStroke: '1px rgba(0,0,0,0.1)' }}>
             {section.title}
