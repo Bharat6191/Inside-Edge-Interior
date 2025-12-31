@@ -15,6 +15,14 @@ const Portfolio = () => {
       
       {/* Hero Header */}
       <div className="h-screen flex flex-col justify-center items-center relative z-10 px-6">
+        <motion.span 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="inline-block text-xs md:text-sm uppercase tracking-[0.3em] text-neutral-500 mb-6"
+        >
+          No 72 Hoors, Just 72 Shades of Interior Design
+        </motion.span>
         <motion.h1 
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
